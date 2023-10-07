@@ -11,15 +11,21 @@
 
 <body class="h-full w-full absolute bg-ctp-crust">
   <!-- Navigation bar -->
-  <div class="w-full p-8 h-min flex flex-row bg-ctp-base shadow-sm"></div>
+  <div class="w-full py-5 h-min flex flex-row bg-ctp-base shadow-sm gap-5">
+    <p class="font-bold text-xl ml-5 text-ctp-text cursor-pointer select-none transition-transform duration-400 ease-in-out hover:text-ctp-lavender hover:scale-125">VoxLand</p>
+    <div class="border-x -my-3 border-ctp-overlay0"></div>
+    <div class="mx-auto"></div>
+    <p class=" text-lg ml-5 text-ctp-subtext0 mr-5 cursor-pointer select-none transition-transform duration-400 ease-in-out hover:text-ctp-lavender hover:scale-125">test</p>
+  </div>
   <!-- Main content -->
   <div class="w-full overflow-y-auto">
     <div class="h-min w-full flex flex-col justify-center items-center">
-      <div class="bg-[url('/src/demo.png')] brightness-50 w-full h-96">
-        <div class="w-full h-96 filter-none flex flex-col justify-center items-center">
-
+      <div class="bg-[url('/src/demo.png')] bg-cover w-full h-96 inline-table">
+        <div class="w-full h-96 bg-black opacity-75 transform duration-500 ease-in-out absolute peer hover:opacity-25 "></div>
+          <div class="flex flex-col justify-center items-center h-full w-full transform duration-500 ease-in-out  pointer-events-none  peer-hover:opacity-0">
+            <p class="text-5xl mb-2 font-bold text-ctp-surface0 z-10">Meet VoxLand</p>
+            <p class="text-xl text-ctp-surface1 z-10">The FOSS, Extensible Multiplayer Voxel Engine</p>
         </div>
-      </div>
     </div>
   </div>
 </body>
