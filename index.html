@@ -11,22 +11,24 @@
 
 <body class="h-full w-full absolute bg-ctp-crust">
   <!-- Navigation bar -->
-  <div class="w-full py-5 h-min flex flex-row bg-ctp-base shadow-sm gap-5 z-20 fixed">
+  <div
+    class="w-full py-8 text-center align-baseline items-baseline flex flex-row bg-ctp-base shadow-sm gap-3 z-20 fixed">
     <p
-      class="font-bold text-xl ml-5 text-ctp-text cursor-pointer select-none transition-transform duration-400 ease-in-out hover:text-ctp-lavender hover:scale-125">
-      VoxLand</p>
+      class="font-bold text-xl ml-5 text-ctp-text  cursor-pointer select-none transition-transform duration-400 ease-in-out hover:text-ctp-lavender hover:scale-125">
+      VoxLand(WIP)
+    </p>
     <div class="border-x -my-3 border-ctp-overlay0"></div>
     <div class="mx-auto"></div>
     <p
-      class=" text-lg ml-5 text-ctp-subtext0 mr-5 cursor-pointer select-none transition-transform duration-400 ease-in-out hover:text-ctp-lavender hover:scale-125">
+      class=" text-lg ml-5 text-ctp-subtext0 mr-3 cursor-pointer select-none transition-transform duration-400 ease-in-out hover:text-ctp-lavender hover:scale-125">
       Docs</p>
     <p
-      class=" hidden sm:block text-lg ml-5 text-ctp-subtext0 mr-5 cursor-pointer select-none transition-transform duration-400 ease-in-out hover:text-ctp-lavender hover:scale-125">
+      class=" hidden sm:block text-lg ml-5 text-ctp-subtext0 mr-3 cursor-pointer select-none transition-transform duration-400 ease-in-out hover:text-ctp-lavender hover:scale-125">
       Source</p>
     <p
-      class=" hidden sm:block text-lg ml-5 text-ctp-subtext0 mr-5 cursor-pointer select-none transition-transform duration-400 ease-in-out hover:text-ctp-lavender hover:scale-125">
+      class=" hidden sm:block text-lg ml-5 text-ctp-subtext0 mr-3 cursor-pointer select-none transition-transform duration-400 ease-in-out hover:text-ctp-lavender hover:scale-125">
       About</p>
-    <button class="text-ctp-subtext0 font-semibold mr-5">
+    <button class="hidden md:block text-ctp-surface0 font-semibold mr-3 py-3 pr-3 pl-3 rounded-md bg-ctp-text">
       Dark Mode
     </button>
   </div>
@@ -39,50 +41,55 @@
         </div>
         <div
           class="flex flex-col justify-center items-center h-full w-full transform duration-500 ease-in-out  pointer-events-none  peer-hover:opacity-0">
-          <p class="text-5xl mb-5 font-bold text-ctp-surface0 z-10 tracking-wide">Meet VoxLand</p>
-          <p class="text-xl text-ctp-surface1 z-10 tracking-widest">The FOSS, Extensible Multiplayer Voxel Engine</p>
+          <p class="text-4xl md:text-5xl mb-5 font-bold text-ctp-surface0 z-10 tracking-wide ">Meet VoxLand</p>
+          <p class="text-sm md:text-xl text-center m-3 text-ctp-surface1 z-10 tracking-widest">A FOSS, Extensible
+            Multiplayer Voxel Engine</p>
         </div>
 
       </div>
-      <div>
-        <div class="w-full bg-ctp-surface0 p-10 flex flex-col gap-5">
-          <div class="flex flex-col md:flex-row ">
-            <div class="h-1/2 md:w-1/2 md:h-full my-auto">
-              <p class="text-3xl my-3 font-bold text-ctp-text">The Voxel Engine That You'll Love.</p>
-              <p class="text-lg my-3 text-ctp-text">Experience our open-source multiplayer voxel engine. Craft fun games, connect globally, and unleash your creativity. </p>
-            </div>
-            <div class="h-1/2 md:h-full my-5 md:my-0 md:w-1/2">
-              <img src="src/demo.png" alt="Demo" class="scale-75 m-5 transition-transform duration-300 ease-in-out hover:scale-[90%] hover:rotate-6 w-full h-full">
-            </div>
+      <div class="w-full bg-ctp-surface0 p-10 flex flex-col gap-5">
+        <div class="flex flex-col md:flex-row ">
+          <div class="h-1/2 md:w-1/2 md:h-full my-auto">
+            <p class="text-3xl my-3 font-bold text-ctp-text">The Voxel Engine That You'll Love.</p>
+            <p class="text-lg my-3 text-ctp-text">Experience our open-source multiplayer voxel engine. Craft fun
+              games, connect globally, and unleash your creativity. </p>
           </div>
-
-          <div class="flex flex-col md:flex-row ">
-            <div class="h-1/2 md:w-1/2 md:h-full my-auto">
-              <p class="text-3xl my-3 font-bold text-ctp-text">Simplicity at Its Best! </p>
-              <p class="text-lg my-3 text-ctp-text">Our voxel engine is built for ease of use. As an Express server, The minimal project takes 20 lines of code to setup.</p>
-            </div>
-            <div class="h-1/2 md:h-full my-5 md:my-0 md:w-1/2">
-              <img src="/src/NodeJS.svg" alt="VoxLand Demo" class="scale-[40%] w-full h-full transition-transform duration-300 ease-in-out hover:scale-[60%] hover:-rotate-6">
-            </div>
+          <div class="h-1/2 md:h-full my-5 md:my-0 md:w-1/2">
+            <img src="src/demo.png" alt="Demo"
+              class="scale-75 m-5 transition-transform duration-300 ease-in-out hover:scale-[90%] hover:rotate-6 w-full h-full">
           </div>
-
-          <div class="flex flex-col md:flex-row ">
-            <div class="h-1/2 md:w-1/2 md:h-full my-auto">
-              <p class="text-3xl my-3 font-bold text-ctp-text">Fully Open Source!</p>
-              <p class="text-lg my-3 text-ctp-text">The VoxLand is free and open source. Everyone can help the project grow! </p>
-            </div>
-            <div class="h-1/2 md:h-full my-5 md:my-0 md:w-1/2">
-              <img src="/src/github.svg" alt="VoxLand Demo" class="scale-75 w-full h-full bg-ctp-crust  transform-none md:transform md:duration-300 md:hover:-rotate-[30deg] md:hover:shadow-2xl md:ease-out md:hover:bg-ctp-text  rounded-full ">
-            </div>
-          </div>
-
-
         </div>
+
+        <div class="flex flex-col md:flex-row ">
+          <div class="h-1/3 md:w-1/2 md:h-full my-auto">
+            <p class="text-3xl my-3 font-bold text-ctp-text">Simplicity at Its Best! </p>
+            <p class="text-lg my-3 text-ctp-text">Our voxel engine is built for ease of use. As an Express server, The
+              minimal project takes 20 lines of code to setup.</p>
+          </div>
+          <div class="h-1/2 md:h-full my-5 md:my-0 md:w-1/2">
+            <img src="/src/NodeJS.svg" alt="VoxLand Demo"
+              class="scale-[40%] w-full h-full transition-transform duration-300 ease-in-out hover:scale-[60%] hover:-rotate-6">
+          </div>
+        </div>
+
+        <div class="flex flex-col md:flex-row ">
+          <div class="h-1/2 md:w-1/2 md:h-full my-auto">
+            <p class="text-3xl my-3 font-bold text-ctp-text">Fully Open Source!</p>
+            <p class="text-lg my-3 text-ctp-text">The VoxLand is free and open source. Everyone can help the project
+              grow! </p>
+          </div>
+          <div class="h-1/2 md:h-full my-5 md:my-0 md:w-1/2">
+            <img src="/src/github.svg" alt="VoxLand Demo"
+              class="scale-50 w-full h-full bg-ctp-crust  transform-none md:transform md:duration-300 md:hover:scale-50 md:hover:-rotate-[30deg] md:hover:shadow-2xl md:ease-out md:hover:bg-ctp-text  rounded-full ">
+          </div>
+        </div>
+
+
       </div>
     </div>
     <div class="w-full h-fit lg:h-fit bg-ctp-surface1 p-10">
       <div class="flex flex-row text-xs lg:text-lg">
-        <p>@2023 MeBadDev</p>
+        <p>@2023 <a href="https://www.youtube.com/watch?v=xvFZjo5PgG0">MeBadDev</a></p>
         <div class="mx-auto"></div>
         <p>Powered by Vite + TS</p>
 
