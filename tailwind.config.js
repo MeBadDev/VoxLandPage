@@ -7,6 +7,6 @@ export const theme = {
 export const plugins = [
   catppuccin({
     prefix: "ctp",
-    defaultFlavour: "mocha"
+    defaultFlavour: "latte"
   })
 ];
